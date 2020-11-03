@@ -1,0 +1,21 @@
+```
+git clone https://gitlab.groupeonepoint.com/em.arezki/restaurant-exercice.git
+```
+
+## open corresponding folder.
+## It's important to use your name in the branch name, this allows us to check the build status in Jenkins.
+
+```
+git checkout -b full_name
+```
+
+## Fix the unit test RestaurantTest.
+### After a successful build with:
+```
+mvn clean install
+```
+
+### Push the current branch:
+```
+git push -u origin branch_name
+```
